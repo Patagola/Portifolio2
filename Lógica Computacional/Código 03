@@ -1,0 +1,33 @@
+package recuperação;
+
+import javax.swing.JOptionPane;
+
+public class Rec {
+
+    public static void main( String [] args) {
+       
+        int idade = 0;
+        String nome = JOptionPane.showInputDialog(null, "Digite seu nome!");
+        JOptionPane.showMessageDialog(null, "Bem vindo, " + nome );
+        Integer.parseInt(JOptionPane.showInputDialog(null, nome + ",qual a sua idade?"));
+        if (idade > 18) {
+            JOptionPane.showMessageDialog(null, nome + " você é menor de idade ein! não vá aprontar!");
+        } else {
+            JOptionPane.showMessageDialog(null, nome + " você é maior de idade, agora mesmo que não pode aprontar ein!");
+        }
+        if(idade % 2 == 1){
+             JOptionPane.showMessageDialog(null, nome + " a sua idade é ímpar");
+        }
+         else {
+            JOptionPane.showMessageDialog(null, nome + " a sua idade é par");
+        }
+        int i = -1;
+        while(i != idade){
+            i =Integer.parseInt(JOptionPane.showInputDialog(null, nome + " quantos anos você disse que tem mesmo?"));}
+            
+            JOptionPane.showMessageDialog(null,"Muito bem!!");
+            }
+        
+         }
+
+
