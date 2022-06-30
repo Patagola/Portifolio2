@@ -1,0 +1,45 @@
+diego@diego-VirtualBox:~$ sudo usermod -c wolverine,48_5555555-44 diego
+diego@diego-VirtualBox:~$ sudo passwd diego
+Nova senha:
+Redigite a nova senha:
+As senhas não são iguais.
+passwd : Erro de manipulação de token de autenticação
+passwd: senha inalterada
+diego@diego-VirtualBox:~$ sudo passwd diego
+Nova senha:
+Redigite a nova senha:
+passwd: senha atualizada com sucesso
+diego@diego-VirtualBox:~$ sudo groupmod -n viloes herois
+diego@diego-VirtualBox:~$ sudo adduser meu_malvado_favorito
+Adicionando o usuário `meu_malvado_favorito' ...
+Adicionando novo grupo 'meu_malvado_favorito' (1011) ...
+Adicionando novo usuário `meu_malvado_favorito' (1010) ao grupo `meu_malvado_favorito' ...
+Criando diretório pessoal `/home/meu_malvado_favorito' ...
+Copiando arquivos de '/etc/skel' ...
+Nova senha:
+Redigite a nova senha:
+passwd: senha atualizada com sucesso
+Modificando as informações de usuário para meu_malvado_favorito
+Informe o novo valor ou pressione ENTER para aceitar o padrão
+    Nome Completo []: Gru
+    Número da Sala []: laboratorio
+    Fone de Trabalho []: 48 4444
+    Fone Residencial []: 444444
+    Outro []: meu grupo do mal
+A informação está correta? [S/n] s
+diego@diego-VirtualBox:~$ sudo adduser minions --ingroup meu_malvado_favorito
+adduser: O usuário 'minions' já existe.
+diego@diego-VirtualBox:~$ minions --ingroup meu_malvado_favorito
+minions: comando não encontrado
+diego@diego-VirtualBox:~$ sudo minions --ingroup meu_malvado_favorito
+sudo: minions: comando não encontrado
+diego@diego-VirtualBox:~$ sudo deluser wolverine herois
+/usr/sbin/deluser: O usuário 'wolverine' não existe.
+diego@diego-VirtualBox:~$ sudo deluser minions meu_malvado_favorito
+/usr/sbin/deluser: O usuário 'minions' não é um membro do grupo 'meu_malvado_favorito'.
+diego@diego-VirtualBox:~$ ^C
+diego@diego-VirtualBox:~$ ^C
+diego@diego-VirtualBox:~$
+
+
+
