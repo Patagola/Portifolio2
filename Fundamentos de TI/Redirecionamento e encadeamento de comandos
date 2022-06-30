@@ -1,0 +1,30 @@
+echo "Irei aprender novos comandos" | WC, o comando faz a contagem das letras,
+esse será o comando usado para transferir  echo "Irei aprender novos comandos" >>contadordepalavras
+
+
+      2)echo "Maria
+           Joana
+           Ana
+           José
+           Ricardo
+          João">>nomes
+
+
+     3) echo "Um contará a palavra e o outro contara a quantidade do arquivo ao todo">>diferencawccat
+
+  
+  4)cat nomes | sort
+Ana
+Joana
+José
+João
+Maria
+Ricardo
+
+
+
+
+
+     
+
+
