@@ -1,0 +1,17 @@
+package teste;
+
+
+public class caixas {
+    
+    public static void main(String[] args) {
+        int [][]numeros = new int [3][3];
+                numeros [1][1] = 10;
+        String matriz = "Matriz\n";
+        for(int linha = 0; linha < 3; linha ++){
+        for(int coluna = 0; coluna < 3; coluna ++){
+            matriz += numeros[linha][coluna] + "";
+            
+           }    
+    
+        }
+        System.out.print( matriz );
