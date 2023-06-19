@@ -1,0 +1,42 @@
+/*1-maior ou igual*/
+console.log(Math.max(10,43));   
+console.log('É o maior')
+    
+
+/*2-Idade*/
+var idade = 32
+ 
+ console.log(idade*360)
+
+/*3-mês*/ 
+var mês = new Date('março, 09,2005, 23:15:30');
+var month = mês.getMonth();
+
+console.log(month+1); //Por incrivel que pareça ele funciona,mas preciso acrecentar o número 1 para resultar no mês certo
+
+/*4-Inverter*/
+
+
+/*contador(Não é necessário)*/
+for (let i = 0; i < 4; i++) {
+    console.log(5+i);
+ }//Não era o objetivo,mas consegue fazer um contador,achei legal
+
+ //5-Multiplicar sem multiplicar*/
+
+
+    /*6-Repetição*/
+for (let i = 0; i < 9; i++) { //O < 9 é o que faz a quantidade  de repetições do i
+    console.log(5);
+ }
+
+ /*7-Mostre o que tem*/
+ 
+
+ /*8-Some o que você tem*/
+ var frutas = ['1', '1','1'];
+
+console.log(frutas.length);
+
+/*9-Retorne o segundo maior*/
+
